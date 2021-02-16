@@ -11,6 +11,7 @@
     text-shadow: 1px 1px 7px rgb(255, 71, 1), 1px 3px 6px rgba(255, 60, 0, 0.69);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;7;
+    margin-top: -3%;
     }
  .main  {
     color: #2a247d;
@@ -24,3 +25,7 @@
     text-shadow: 0 0 7px #00ffcf80;
     text-decoration: none;
     }
+#logo {
+  margin-left: 0%;
+  margin-right: 95%;
+}
