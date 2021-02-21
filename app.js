@@ -1,4 +1,4 @@
-let text = "";
+text = "";
 function rename(text){
-  document.getElementById('h1').innerText = text;
+  document.getElementById('h1').innerText = global text;
 }
