@@ -1,5 +1,4 @@
-let i = 0;
-while i < 10{
-    console.log("хах, ONI")
-    i = i+1
+let text = "";
+function rename(text){
+  document.getElementById('h1').innerText = text;
 }
