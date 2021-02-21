@@ -1,3 +1,4 @@
+let message = null;
 function rename(text){
-  document.getElementById('h1').innerText = "Ну шо такое";
+  document.getElementById('h1').innerText = text;
 }
