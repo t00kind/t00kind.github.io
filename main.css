@@ -1,9 +1,10 @@
  html {
-    background-image: url(tve.jpg);
+    background: #bababa url(tve.jpg);
     font-family: sans-serif;
     text-align: center;
     background-repeat: no-repeat;
     background-position: center top;
+
 
     }
  h1 {
@@ -33,3 +34,4 @@
   margin-left: 0%;
   margin-right: 95%;
 }
+
