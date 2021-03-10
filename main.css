@@ -19,7 +19,7 @@
     margin-top: -3%;
     }
  .main  {
-    color: #cf0d0d;
+    color: #2a247d;
     font-size: 25px;
     }
  #boss  {
@@ -34,4 +34,11 @@
   margin-left: 0%;
   margin-right: 95%;
 }
+#me {
+  text-decoration: none;
+  font-size: 36px;
+  color: #ff7;
+}
+
+
 
