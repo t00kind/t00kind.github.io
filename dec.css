@@ -24,3 +24,6 @@ a {
 a:hover {
   color: #FF6600;
 }
+li {
+  text-align: center;
+}
