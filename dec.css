@@ -1,3 +1,7 @@
+html {
+  font-family: sans-serif;
+}
+
 #pricol {
   text-align: center;
 }
@@ -7,6 +11,5 @@
   font-size: 50px;
 }
 html {
-  background: linear-gradient((90deg, #ee5c87, #f1a4b5, #d587b3)
-  font-filmy: sans-serif;
+  background: linear-gradient(to left, #ee5c87, #f1a4b5, #d587b3);
 }
