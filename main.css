@@ -39,6 +39,11 @@
   font-size: 36px;
   color: #green;
 }
+button {
+    color: green;
+}
+button:hover {
+    color: red;
 
-
+}
 
