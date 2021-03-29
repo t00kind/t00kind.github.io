@@ -13,6 +13,7 @@ html {
 #text {
   text-align: center;
   font-size: 50px;
+  position: center;
 }
 .content {
   text-align: center;
@@ -26,4 +27,8 @@ a:hover {
 }
 li {
   text-align: center;
+}
+img {
+  float: center;
+  
 }
