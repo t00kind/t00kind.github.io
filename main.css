@@ -58,3 +58,15 @@ button:hover {
     background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
     box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
 }
+.gay:hover {
+    position: fixed;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 55%;
+    bottom: 20px;
+    right: 20px;
+    background: radial-gradient(farthest-side ellipse at top left, #f598a8, #f6edb2);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+}
