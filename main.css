@@ -46,4 +46,14 @@ button:hover {
     color: red;
 
 }
-
+.gay {
+    position: fixed;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 55%;
+    bottom: 20px;
+    right: 20px;
+    background-color: palegreen;
+}
