@@ -9,6 +9,8 @@ hr {
     
 }
 a {text-decaration: none;}
-strong {
-    margin-botton: 3px;
+.block-vid {
+    position: relative;
+    float: left;
+    display: inline;
 }
