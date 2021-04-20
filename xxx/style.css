@@ -5,5 +5,7 @@ html
     
 }
 hr {
-    height: 5px;
+    border: 5px solid;
+    
 }
+a {text-decaration: none;}
