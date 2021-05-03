@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
     <head>
         <title>test vue.js</title>
@@ -9,18 +8,21 @@
     <body>
         <div id="main">
             <h1>Небольшая игра кликкер</h1>
-            <p>Ваше состояние: {{money}} $</p>
+            <p>Ваше состояние: {{money}}$</p>
             <button @click="upMoney">БОЛЬШЕ!</button>
         <script>
             new Vue({
                 el: "#main",
                 data: {
-                    money: 0;
+                    money = 0;
                 },
                 methods: {
                     upMoney() {
                         this.money++;
                     }
+                },
+                created: fucntion() {
+                    this.money = 10;
                 }
             })
         </script>
