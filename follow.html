@@ -4,17 +4,27 @@
     <title>me in world</title>
     <link rel="shortcut icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F4283198%2Finternet_web_website_site_icon&psig=AOvVaw1JHLz1kKmVpOrPBBXgaHUu&ust=1615572250210000&source=images&cd=vfe&ved=2ahUKEwj0qPfh6ajvAhU6AxAIHYd3Bx8QjRx6BAgAEAc">
     <link rel="stylesheet" href="dec.css" />
-    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <meta charset="utf-8"/>
   </head>
   <body>
-  <article>
+      <div id="app">  <article>
     <img src="pricol.jpg" id="pricol" alt="pricol">
     <ul>
       <div class="content">
-        <caption>я в интернете</caption>
+        <caption>{{ message }}</caption>
     <li><a href="https://vk.com/poshlit">VK</a></li>
       </div>
   </ul>
   </article>
+  </div>
+  <script>
+        new Vue({
+            el: "app",
+            data: {
+                message: "Я в Интернете"
+            }
+        })
+  </script>
   </body>
 </html>
