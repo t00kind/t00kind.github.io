@@ -9,7 +9,7 @@
     </head>
     <body>
         <div id="main">
-            <h1>{{ title }}</h1>
+            <h1 @click="setSe">{{ title }}</h1>
             <div id="yohoho" :data-title="name"></div>
         <script>
             new Vue({
@@ -17,6 +17,14 @@
                 data: {
                     title: "Попробуем сделать хост(видео)",
                     name: "ванпанчмен"
+                },
+                methods: {
+                    getVal() {
+                        console.log("Привки");
+                    },
+                    setSe: function() {
+                        alert("Ну наглец ага");
+                    }
                 }
             })
         </script>
