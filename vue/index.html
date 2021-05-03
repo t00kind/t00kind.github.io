@@ -27,12 +27,10 @@
                 },
                 methods: {
                     getHT() {
-                        axios.get(this.url.hashT)
+                        axios.get(this.url.hashT).then((response) => {
+                            this.hashT = response.data;
+                        })
                     }
-                },
-                created: fucntion() 
-                { 
-
                 }
             })
         </script>
