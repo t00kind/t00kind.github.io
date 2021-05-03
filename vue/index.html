@@ -4,27 +4,35 @@
         <title>test vue.js</title>
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" href="vue.css">
     </head>
     <body>
         <div id="main">
-            <h1>Небольшая игра кликкер</h1>
-            <p>Ваше состояние: {{money}}$</p>
-            <button @click="upMoney">БОЛЬШЕ!</button>
-        </div>
+            <button @click="getHT">Давай</button>
+
+            <ul>
+                <li v-for="ht in hashtags"></li>
+            </ul>
+         </div>
         <script>
             new Vue({
                 el: "#main",
                 data: {
-                    money: 1
-                },
-                methods: {
-                    upMoney() {
-                        this.money++;
+                    hashtags: [],
+                    urs: {
+                        hashT: "https://dka-develop.ru/api?type=hashtag",
+                        citi: "https://dka-develop.ru/api?type=city"
                     }
                 },
-                created: fucntion() {
-                    this.money = 10;
+                methods: {
+                    getHT() {
+                        axios.get(this.url.hashT)
+                    }
+                },
+                created: fucntion() 
+                { 
+
                 }
             })
         </script>
