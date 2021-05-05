@@ -2,7 +2,7 @@ html
 {
     font-family: sans-serif;
     background: #ECECEC;
-    
+    display: flex;
 }
 hr {
     border: 3px solid;
@@ -11,6 +11,5 @@ hr {
 a {text-decaration: none;}
 .block-vid {
     position: relative;
-    float: left;
     display: inline;
 }
