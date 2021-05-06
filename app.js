@@ -1,5 +1,5 @@
 let app = new Vue({
-  el: "vie",
+  el: "#vie",
   data: {
     name: "poshlit"
   }
