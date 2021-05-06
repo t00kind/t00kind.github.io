@@ -1,4 +1,6 @@
-let message = null;
-function rename(text){
-  document.getElementById('h1').innerText = text;
-}
+let app = new Vue({
+  el: "vie",
+  data: {
+    name: "poshlit"
+  }
+})
