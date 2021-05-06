@@ -5,11 +5,13 @@
     <title>test page</title>
     <link rel="shortcut icon" href="sigma(1).png">
     <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   </head>
   <body>
+	  <div id="vie">
 	<img src="sigma(3).png" id="logo">
     <img src="350kb.gif" id="banner">
-    <h1 id="h1"onclick="rename(message);">Hello, i'm</h1>
+    <h1>{{ name }}/h1>
     <a id="boss" href="https://vk.com/poshlit">poshlit</a>
     <div class="main">
         <p>Я здесь просто тестю</p>
@@ -18,7 +20,7 @@
     <section>
       <section class="registr">
         <form action="" method="post" target="_blank" required>
-          <input type="text" placeholder="name" />
+          <input v-model="name">
           <input type="email" placeholder="exemple@yourmai.com" />
           <input type="password" placeholder="pass" />
           <button>authorization</button>
@@ -32,6 +34,7 @@
       </details>
     </section>
     <a href="follow.html">Follow for me</a>
+	  </div>
     <script src="app.js"></script>
   </body>
 </html>
