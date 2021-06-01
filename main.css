@@ -75,3 +75,9 @@ button:hover {
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+#button {
+ background: white;
+ border: 2px solid orange;
+ color: black;
+ border-radius: 3px;
+}
