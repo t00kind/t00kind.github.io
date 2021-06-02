@@ -75,9 +75,96 @@ button:hover {
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+ html {
+    background: #bababa url(tve.jpg);
+    font-family: sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+
+    }
+ h1 {
+    color: #ee5a5a;
+    font-size: 44px;
+    background: radial-gradient(circle, #ff0000 0%, #ff5e00 27%,rgb(254, 19, 19)
+    51%, #ff8100 75%, #ff0000 100%);
+    text-shadow: 1px 1px 7px rgb(255, 71, 1), 1px 3px 6px rgba(255, 60, 0, 0.69)
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;7;
+    margin-top: -3%;
+    }
+ .main  {
+    color: #2a247d;
+    font-size: 25px;
+    }
+ #boss  {
+    font-size: 44px;
+    background: linear-gradient(20deg, #006eff, #00ff81 52%, #fff 50%, #93cbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 7px #00ffcf80;
+    text-decoration: none;
+    }
+#logo {
+  margin-left: 0%;
+  margin-right: 95%;
+}
+#me {
+  text-decoration: none;
+  font-size: 36px;
+  color: #green;
+}
+button {
+    color: green;
+}
+button:hover {
+    color: red;
+
+}
+.gay {
+    position: fixed;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 55%;
+    bottom: 20px;
+    right: 20px;
+    background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+}
+.gay:hover {
+    position: fixed;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 55%;
+    bottom: 20px;
+    right: 20px;
+    background: radial-gradient(farthest-side ellipse at top left, #f598a8, #f6edb2);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 #button {
- background: white;
+ background: #addcde;
  border: 2px solid orange;
- color: black;
- border-radius: 3px;
+ color: #bf5a5a;
+ border-radius: 5.5px;
+}
+#button:hover {
+  background: white;
+  border-radius: 5.5px;
+  border: 2px solid orange;
+  color: black;
+}
+.sh {
+  border: 2px solid orange;
+  border-radius: 3px;
 }
