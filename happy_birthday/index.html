@@ -9,14 +9,14 @@
 </head>
 <body>
   <div id="vue">
-    <div class="show">
-      <button @click="show = !show">
+    <div class="show" v-if="show">
+      <button @click="re">
         Запуск
       </button>
     </div>
     <div id="main">
       <transition name="fade">
-        <div id="poz" v-if="show">
+        <div id="poz" v-if="real">
           <h1>{{ name }}, поздравляю с днём рождения!</h1>
           <image src="images/ok_lol.png">
         </div>
