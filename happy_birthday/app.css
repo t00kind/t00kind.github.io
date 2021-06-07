@@ -1,4 +1,6 @@
+@import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+
 body {
-  font-family: sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
   background-color: #ededed;
 }
