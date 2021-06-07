@@ -1,4 +1,4 @@
-let app = new Vue({
+new Vue({
   el: "#vue",
   data: {
     name: "Ильшат"
