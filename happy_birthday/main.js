@@ -3,7 +3,7 @@ new Vue({
   data: {
     name: "Ильшат",
     show: true,
-    real: false;
+    real: false
   },
   methods: {
     re: function() {
