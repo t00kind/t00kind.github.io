@@ -10,8 +10,9 @@ h1 {
   margin-top: 70px;
 }
 
-image {
-}
+#hah {
+  width: 32px;
+  heiht: 32px;
 
 #poz {
   display: flex;
