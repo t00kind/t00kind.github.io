@@ -17,6 +17,6 @@ h1 {
 }
 
 #vid {
-  text-align: center;
-  float: inherit;
+ display: flex;
+ justify-content: center;
 }
