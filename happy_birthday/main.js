@@ -1,6 +1,6 @@
-let app = new Vue(
+let app = new Vue({
   el: "#vue",
   data: {
     name: "Ильшат"
   }
-)
+})
