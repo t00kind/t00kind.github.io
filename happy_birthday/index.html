@@ -10,12 +10,17 @@
 <body>
   <div id="vue">
     <div class="show">
+      <button @click="show = !show">
+        Запуск
+      </button>
     </div>
     <div id="main">
-      <span id="poz">
-        <h1>{{ name }}, поздравляю с днём рождения!</h1>
-        <image src="images/ok_lol.png" class="hah">
-      </span>
+      <transition name="fade">
+        <div id="poz" v-if="show">
+          <h1>{{ name }}, поздравляю с днём рождения!</h1>
+          <image src="images/ok_lol.png">
+        </div>
+      </transition>
     </div>
   </div>
   <script src="main.js"></script>
